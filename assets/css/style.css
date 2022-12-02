@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+
+  --sweet-pink: #fb9898;
+  --sweet-corn: rgb(253,234,128);
+  --burnt-sienna: #e7905a;
+  --coral-reef: #c7b99e;
+
+}
+
+body {
+  margin: 5%;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background: var(--burnt-sienna);
+
+
+}
+
+page-wrapper {
+
+  display: grid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+
+header {
+
+  background-image: url("../images/02-hero-bg.jpg");
+  padding: 80px;
+}
+
+nav {
+
+  display: flex;
+  justify-content: flex-end;
+  background: var(--sweet-corn);
+  padding: 20px;
+  justify-content: space-between;
+
+}
+
+
+h1 {
+
+  color: var(--sweet-pink);
+  text-shadow: 2px 2px var(--sweet-corn);
+  font-size: 80px;
+
+}
+
+header h2 {
+
+  color: var(--coral-reef);
+  font-size: 40px;
+}
+
+h2 {
+
+  color: var(--sweet-pink);
+  text-shadow: 2px 1px black;
+  font-size: 50px;
+}
+
+
+
+p {
+  margin: 0;
+}
+
+a {
+
+  /* text-decoration: none; */
+  color: black;
+}
+
+
+#work {
+
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+
+}
+
+.cheatsheet {
+
+  /* grid-area: cheat; */
+  background-image: url('../images/screencapture-berta-rf-github-io-css-cheatsheet-2022-12-02-17_19_05.png');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bmi {
+
+  /* grid-area: bmi; */
+  background-image: url('https://picsum.photos/1024/768?image=967');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.horiseon {
+
+  /* grid-area: horiseon; */
+  background-image: url('https://picsum.photos/1024/768?image=967');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.prework {
+
+  /* grid-area: prework; */
+  background-image: url('https://picsum.photos/1024/768?image=967');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.runbuddy {
+
+  /* grid-area: run; */
+  background-image: url('../images/02-run-buddy.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.surf {
+
+  /* grid-area: surf; */
+  background-image: url('../images/02-portfolio-4.jpg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
