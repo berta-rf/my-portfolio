@@ -12,18 +12,14 @@
 }
 
 body {
-  margin: 5%;
+  margin: 10%;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  background: var(--burnt-sienna);
+  background: white;
 
 
 }
 
-page-wrapper {
-
-  display: grid;
-}
 
 h1,
 h2,
@@ -31,22 +27,23 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin: 10px 0px;
 }
 
 
 header {
 
-  background-image: url("../images/02-hero-bg.jpg");
-  padding: 80px;
+  /* background-image: url("/assets/images/02-hero-bg.jpg"); */
+  
+  
 }
 
 nav {
 
   display: flex;
   justify-content: flex-end;
+  padding: 3%;
   background: var(--sweet-corn);
-  padding: 20px;
   justify-content: space-between;
 
 }
@@ -69,82 +66,45 @@ header h2 {
 h2 {
 
   color: var(--sweet-pink);
-  text-shadow: 2px 1px black;
+  text-shadow: 2px black;
   font-size: 50px;
 }
 
-
-
 p {
-  margin: 0;
+  padding: 1em;
 }
 
 a {
 
-  /* text-decoration: none; */
+  text-decoration: none;
   color: black;
 }
 
 
-#work {
+.portfolio-items img {
+  height: 500px;
+  object-fit: contain;
+  /* width: 500px; */
+}
 
+.portfolio-items {
   display: flex;
   justify-content: space-around;
-  flex-flow: wrap;
-
+  flex-wrap: wrap;
+  width: 80vh;
 }
 
-.cheatsheet {
 
-  /* grid-area: cheat; */
-  background-image: url('../images/screencapture-berta-rf-github-io-css-cheatsheet-2022-12-02-17_19_05.png');
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
+.portfolio-items > figure:first-child {
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 100%;
 }
 
-.bmi {
-
-  /* grid-area: bmi; */
-  background-image: url('https://picsum.photos/1024/768?image=967');
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
+.portfolio-items > figure:first-child img {
+  order: -1;
+  flex: 1 0 100%;
+  width: 100%;
+  height: 629px;
 }
 
-.horiseon {
-
-  /* grid-area: horiseon; */
-  background-image: url('https://picsum.photos/1024/768?image=967');
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-
-}
-
-.prework {
-
-  /* grid-area: prework; */
-  background-image: url('https://picsum.photos/1024/768?image=967');
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.runbuddy {
-
-  /* grid-area: run; */
-  background-image: url('../images/02-run-buddy.jpg');
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.surf {
-
-  /* grid-area: surf; */
-  background-image: url('../images/02-portfolio-4.jpg');
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
