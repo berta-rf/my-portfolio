@@ -6,108 +6,113 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Berta // Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Berta Romano Fernandez</h1>
-    <h2><i>Front-end Developer</i></h2>
-    <nav>
-      <a href=#about>About me</a>
-      <a href=#work>Work</a>
-      <a href=#contact>Contact Me</a>
-    </nav>
-  </header>
-  
-  <main class="page-wrapper">
+  <div id="main-wrapper">
+    <!-- main logo / nav -->
+    <header>
+      <h1>Berta Romano Fernandez</h1>
+      <h2>Front-end Developer</h2>
+
+      <nav>
+        <a href=#about>About me</a>
+        <a href=#work>Work</a>
+        <a href=#contact>Contact Me</a>
+      </nav>
+    </header>
+    
+    <main class="page-wrapper">
       <!-- about me -->
       <section class="page-section" id="about">
-        
-        <h2>Welcome to my portfolio!</h2>
-        
-        <picture>
-          <img src="/assets/images/portrait.png" height= 350px alt="">
-        </picture>
-        
         <h2>About Me</h2>
-        <p>Former Social Worker, and now also an ex-Sommelier, 
-          looking for new challenges. Currently enrolled in edX 
-          Front End Web Development bootcamp.</p>
-          <p>I've also recently completed Google's Project Management 
+        
+
+        <div class="description">
+          <picture>
+            <img src="/assets/images/portrait.png" height= 250 alt="">
+          </picture>
+    
+          <p id="p1">
+            Former Social Worker, and now also an ex-Sommelier, 
+            looking for new challenges. Currently enrolled in edX 
+            Front End Web Development bootcamp. 
+          </p>
+          <p id="p2">
+            I've also recently completed Google's Project Management 
             course to expand my industry-specific vocabulary, learn new tools, gain an understanding of the life cycle of tech projects and Agile methodologies.
             Highly empathetic and with a mind for efficiency, 
             I merge extensive hospitality experience with a BA 
             in Social Work, which have shaped me into a resilient and 
             adaptable individual, ready to dive into a new industry and 
-            eager to keep learning.</p>
-          </section>
-          
-          <!-- portfolio container -->
-          <section class="page-section" id="work">
-
-            <div class="work-title">
-                <h2>Work</h2>
-            </div>
-
-            <div class="portfolio-items">
-              <figure class="cheatsheet">
-                <a href="https://berta-rf.github.io/css-cheatsheet/">
-                  <img src="/assets/images/cheatsheet-screenshot.png"
-                      alt="website screenshot">
-                  <figcaption>CSS Snippet Cheatsheet</figcaption>
-                </a>
-              </figure>
-            
-              <figure class="bmi">
-                <a href="https://bertraps.pythonanywhere.com/">
-                  <img src="/assets/images/bmi-screenshot.png"
-                      alt="website screenshot">
-                  <figcaption>Python BMI Calculator</figcaption>
-                </a>
-              </figure>
-
-              <figure class="horiseon">
-                <a href="https://berta-rf.github.io/horiseon-accessibility/">
-                  <img src="/assets/images/horiseon-screenshot.png"
-                      alt="website screenshot">
-                  <figcaption>Accessibility Code Refactor</figcaption>
-                </a>
-              </figure>
-
-              <figure class="runbuddy">
-                <a href="#">
-                  <img src="./assets/images/02-run-buddy.jpg"
-                      alt="website screenshot">
-                  <figcaption>Run Buddy</figcaption>
-                </a>
-              </figure>
-
-              <figure class="surf">
-                <a href="#">
-                  <img src="./assets/images/02-portfolio-4.jpg"
-                      alt="website screenshot">
-                  <figcaption>Surf</figcaption>
-                </a>
-              </figure>
-            </div>
-          </section>
-          
-          <!-- contact -->
-          <section class="page-section" id="contact">
-            
-            <h2>Contact Me</h2>
-            <ul>
-              <li><a href = "mailto: bertaromanofernandez@gmail.com">Send me an Email</a></li>
-              <li><a href = "tel: 07989122309"></a>Or give me a call on +447989122309</li>
-              <li><a href = "https://www.linkedin.com/in/berta-romano-fernandez-85a51117a/">Let's connect on LinkedIn</a></li>
-              <li><a href = "https://github.com/berta-rf">Check out my GitHub profile</a></li>
-            </ul>
-            
-          </section>
+            eager to keep learning.
+          </p>
+        </div>
+      </section>
+      
+      <!-- portfolio container -->
+      <section class="page-section" id="work">
+        <h2>Work</h2>
         
-  </main>
-</body>
-    
+        <div class="portfolio-items">
+          <figure class="cheatsheet">
+            <a href="https://berta-rf.github.io/css-cheatsheet/">
+              <img src="/assets/images/cheatsheet-screenshot.png"
+              alt="website screenshot" />
+            </a>
+            <figcaption>CSS Snippet Cheatsheet</figcaption>
+            <!-- </a> -->
+          </figure>
+          
+          <figure class="bmi">
+            <a href="https://bertraps.pythonanywhere.com/">
+              <img src="/assets/images/bmi-screenshot.png"
+              alt="website screenshot">
+              <figcaption>Python BMI Calculator</figcaption>
+            </a>
+          </figure>
+          
+          <figure class="horiseon">
+            <a href="https://berta-rf.github.io/horiseon-accessibility/">
+              <img src="/assets/images/horiseon-screenshot.png"
+              alt="website screenshot">
+              <figcaption>Accessibility Code Refactor</figcaption>
+            </a>
+          </figure>
+          
+          <figure class="runbuddy">
+            <a href="#">
+              <img src="./assets/images/02-run-buddy.jpg"
+              alt="website screenshot">
+              <figcaption>Run Buddy</figcaption>
+            </a>
+          </figure>
+          
+          <figure class="surf">
+            <a href="#">
+              <img src="./assets/images/02-portfolio-4.jpg"
+              alt="website screenshot">
+              <figcaption>Surf</figcaption>
+            </a>
+          </figure>
+        </div>
+      </section>
+      
+      <!-- contact -->
+      <section class="page-section" id="contact">
+        
+        <h2>Contact Me</h2>
+        <ul>
+          <li><a href="mailto: bertaromanofernandez@gmail.com">Send me an Email</a></li>
+          <li><a href="tel:+447989122309">Or give me a call</a></li>
+          <li><a href="https://www.linkedin.com/in/berta-romano-fernandez-85a51117a/">Let's connect on LinkedIn</a></li>
+          <li><a href="https://github.com/berta-rf">Check out my GitHub profile</a></li>
+        </ul>
+        
+      </section>
+    </main>
+  </div>
+</body>  
 </html>
