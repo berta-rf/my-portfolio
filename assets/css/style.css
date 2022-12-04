@@ -15,7 +15,7 @@ body {
   margin: 7.5%;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  background: url(./assets/images/bg_plates.jpg);
+  background: url(../images/bg_plates.jpg);
   color: var(--sweet-corn);
 }
 
