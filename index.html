@@ -12,12 +12,13 @@
 
 <body>
   <div id="main-wrapper">
-    <!-- main logo / nav -->
     <header>
-      <h1>Berta Romano Fernandez</h1>
-      <h2>Front-end Developer</h2>
-
+  <!-- navigation -->
       <nav>
+        <div>
+          <h1>Berta Romano Fernandez</h1>
+          <h2>Front-end Developer</h2>
+        </div>
         <a href=#about>About me</a>
         <a href=#work>Work</a>
         <a href=#contact>Contact Me</a>
@@ -25,16 +26,16 @@
     </header>
     
     <main class="page-wrapper">
+
       <!-- about me -->
       <section class="page-section" id="about">
         <h2>About Me</h2>
         
-
         <div class="description">
           <picture>
-            <img src="/assets/images/portrait.png" height= 250 alt="">
+            <img src="/assets/images/portrait.png" height= 250>
           </picture>
-    
+          
           <p id="p1">
             Former Social Worker, and now also an ex-Sommelier, 
             looking for new challenges. Currently enrolled in edX 
@@ -58,16 +59,15 @@
         
         <div class="portfolio-items">
           <figure class="cheatsheet">
-            <a href="https://berta-rf.github.io/css-cheatsheet/">
+            <a target="_blank" href="https://berta-rf.github.io/css-cheatsheet/">
               <img src="/assets/images/cheatsheet-screenshot.png"
               alt="website screenshot" />
-            </a>
             <figcaption>CSS Snippet Cheatsheet</figcaption>
-            <!-- </a> -->
+            </a>
           </figure>
           
           <figure class="bmi">
-            <a href="https://bertraps.pythonanywhere.com/">
+            <a target="_blank" href="https://bertraps.pythonanywhere.com/">
               <img src="/assets/images/bmi-screenshot.png"
               alt="website screenshot">
               <figcaption>Python BMI Calculator</figcaption>
@@ -75,7 +75,7 @@
           </figure>
           
           <figure class="horiseon">
-            <a href="https://berta-rf.github.io/horiseon-accessibility/">
+            <a target="_blank" href="https://berta-rf.github.io/horiseon-accessibility/">
               <img src="/assets/images/horiseon-screenshot.png"
               alt="website screenshot">
               <figcaption>Accessibility Code Refactor</figcaption>
@@ -104,13 +104,14 @@
       <section class="page-section" id="contact">
         
         <h2>Contact Me</h2>
-        <ul>
-          <li><a href="mailto: bertaromanofernandez@gmail.com">Send me an Email</a></li>
-          <li><a href="tel:+447989122309">Or give me a call</a></li>
-          <li><a href="https://www.linkedin.com/in/berta-romano-fernandez-85a51117a/">Let's connect on LinkedIn</a></li>
-          <li><a href="https://github.com/berta-rf">Check out my GitHub profile</a></li>
-        </ul>
         
+        <div id="items">
+        <a href="mailto: bertaromanofernandez@gmail.com">Send me an &#128231</a></li>
+        <a href="tel:+447989122309">Call me &#9742</a></li>
+        <a href="https://www.linkedin.com/in/berta-romano-fernandez-85a51117a/">Let's connect on LinkedIn</a></li>
+        <a href="https://github.com/berta-rf">Check out my GitHub profile</a></li>
+        </div>
+          
       </section>
     </main>
   </div>
