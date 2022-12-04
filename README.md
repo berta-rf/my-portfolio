@@ -33,8 +33,8 @@
 ## About The Project
 
 <div align=left>
-<img src="./assets/images/screencapture-desktop.png" width= 550 alt="portfolio screenshot"/>
-<img src="./assets/images/screencapture-tablet.png" width=330 alt="portfolio screenshot"/>
+<img src="./assets/images/screencapture-desktop.png" width= 450 alt="portfolio screenshot"/>
+<img src="./assets/images/screencapture-tablet.png" width=250 alt="portfolio screenshot"/>
 <img src="./assets/images/screencapture-mobile.png" width= 100 height=800 alt="portfolio screenshot"/>
 </div>
 
