@@ -32,9 +32,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<div align=left>
 <img src="./assets/images/screencapture-desktop.png" width= 550 alt="portfolio screenshot"/>
-<img src="./assets/images/screencapture-tablet.png" width= 330 alt="portfolio screenshot"/>
-<img src="./assets/images/screencapture-mobile.png" height= 800 alt="portfolio screenshot"/>
+<img src="./assets/images/screencapture-tablet.png" width=330 alt="portfolio screenshot"/>
+<img src="./assets/images/screencapture-mobile.png" width= 100 height=800 alt="portfolio screenshot"/>
+</div>
 
 <p>
 This is a portolio website to show my work and share a bit about me, and make my contact details available.
